@@ -1,0 +1,24 @@
+
+* {
+    margin: 0;
+}
+.moviescntr {
+    background-color: rgb(32, 26, 32);
+    color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.moviecard {
+    width:180px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.movieimg {
+    width:150px;
+    height: 200px;
+}
