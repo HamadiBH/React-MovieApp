@@ -1,0 +1,86 @@
+.Add-btn{
+    border: none ;
+    border-radius: 50px ;
+    background: rgb(128, 0, 60);
+    color: ghostwhite;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;  
+  }
+
+
+  .add-modal {
+    outline: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 40%;
+    left: 40%;
+    top: 25%;
+    bottom: 30%; 
+    background: rgb(156, 0, 73);
+    border-radius: 5px;
+    color: ghostwhite;
+  }
+  
+  .add-modal form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: rgb(156, 0, 73);
+  }
+  
+  .add-modal form input{
+    padding: 0.5em;
+    border-radius: 5px ;
+    border: none;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    width: 200px;
+    background: rgb(128, 0, 60);
+  }
+
+  .add-modal label{
+    background: rgb(156, 0, 73);
+  }
+  
+  .add-modal h2{
+    background: rgb(156, 0, 73);
+  }
+
+  .btn {
+    cursor: pointer;
+    padding: 1em;
+    border-radius: 5px;
+    border: 1px solid rgb(104, 0, 48);
+    margin: 0 1em;
+    background: rgb(128, 0, 60);
+    color: lightgray;
+    
+  }
+  
+  .form-btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 5% 0;
+    width: 60%;
+    background: rgb(156, 0, 73);
+
+    
+  }
+  
+  input[type="number"] {
+    -webkit-appearance: textfield;
+       -moz-appearance: textfield;
+            appearance: textfield;
+   
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+  input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+  }

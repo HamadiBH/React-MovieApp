@@ -2,24 +2,15 @@ import React from 'react';
 import './searchbar.css';
 import Rating from "./rating"
 
-function searchbar(props) {
-
-
-   
-
+function searchbar({ count , handleChangeRating, handleSearch}) {
     
-
-
-
     return (
         <div className='hder'>
-            <input id="newinpt" placeholder="Your movie..." type="text" onChange={e => props.handleSearch(e.target.value)} />
+            <input id="newinpt" placeholder="Your movie..." type="text" onChange={e => handleSearch(e.target.value)} />
             
-            <Rating rate={props.rating}  getRate={props.handleChangeRating}   /> 
+            <Rating count={count}  handleChangeRating={handleChangeRating}   /> 
         </div>
     )
-
-
 }
 
 export default searchbar
