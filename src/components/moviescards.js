@@ -2,6 +2,7 @@ import React from 'react';
 import './moviecards.css';
 import Rating from './rating';
 import AddMovie from "./addmovie";
+import IsLoading from './spinner';
 
 const moviescards = ({movies, handleChangeRating,addMovie}) => {
     return (
@@ -21,4 +22,4 @@ const moviescards = ({movies, handleChangeRating,addMovie}) => {
 
 }
     
-export default moviescards ;
+export default IsLoading(moviescards) ;
